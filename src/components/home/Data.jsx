@@ -62,8 +62,8 @@ const Data = () => {
             <p className='home__description'>
                 I a professional Software Developer who designs, develops, tests, and maintains software applications to meet specific business and technical requirements.
             </p>
-            <a href="" className="button button-flex">
-                Say Hello
+            <a href="" className="button button-flex sayhello">
+                Say Hi
                 <svg
                     class="button__icon"
                     xmlns="http://www.w3.org/2000/svg"
