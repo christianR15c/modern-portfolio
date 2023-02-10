@@ -30,3 +30,21 @@ export const links = [
         link: '#contact'
     }
 ]
+
+export const infoData = [
+    {
+        title: 'Experience',
+        subtitle: '3+ years of experience',
+        icon: 'bx bx-award'
+    },
+    {
+        title: 'Completed',
+        subtitle: '10+ Projects',
+        icon: 'bx bx-briefcase-alt'
+    },
+    {
+        title: 'Support',
+        subtitle: 'Online 24/7',
+        icon: 'bx bx-support'
+    },
+]
