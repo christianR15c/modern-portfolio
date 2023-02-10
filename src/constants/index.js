@@ -48,3 +48,14 @@ export const infoData = [
         icon: 'bx bx-support'
     },
 ]
+
+export const skills = [
+    {
+        frontend: {
+
+        },
+        backend: {
+
+        }
+    }
+]
