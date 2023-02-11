@@ -78,3 +78,14 @@ export const services = [
         desc: 'Mobile & Web maintainance'
     },
 ]
+
+export const qualifications = [
+    {
+        icon: 'uil uil-graduation-cap',
+        title: 'Education'
+    },
+    {
+        icon: 'uil uil-briefcase-alt',
+        title: 'Experience'
+    },
+]
