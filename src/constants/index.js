@@ -59,3 +59,22 @@ export const skills = [
         }
     }
 ]
+
+export const services = [
+    {
+        icon: 'bx bx-code-alt',
+        desc: 'Web development'
+    },
+    {
+        icon: 'bx bx-mobile-alt',
+        desc: 'Mobile development'
+    },
+    {
+        icon: 'bx bxs-data',
+        desc: 'Web Hosting'
+    },
+    {
+        icon: 'bx bx-cog',
+        desc: 'Mobile & Web maintainance'
+    },
+]
