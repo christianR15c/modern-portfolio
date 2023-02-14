@@ -12,7 +12,7 @@ import { testimonies } from '../../constants'
 
 const Testimonials = () => {
     return (
-        <section className="testimonial section">
+        <section className="testimonial section" id='testimonial'>
             <h2 className="section__title">My colleague says</h2>
             <p className="section__subtitle">Testimonials</p>
 
