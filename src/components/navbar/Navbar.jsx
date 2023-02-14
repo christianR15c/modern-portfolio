@@ -5,7 +5,15 @@ import { links } from '../../constants'
 
 const Navbar = () => {
 
+    window.addEventListener("scroll", function () {
+        const header = document.querySelector(".header")
+        if (this.scrollY >= 80) header.classList.add("scroll-header")
+        else header.classList.remove("scroll-header")
+    })
+
     const [toggle, setToggle] = useState(false)
+
+    const [activeNav, setActiveNav] = useState(false)
 
     return (
 
@@ -17,7 +25,11 @@ const Navbar = () => {
                         {
                             links.map((link, index) => (
                                 <li key={index} className='nav__item'>
-                                    <a href={`${link.link}`} className='nav__link'>
+                                    <a
+                                        href={`${link.link}`}
+                                        onClick={() => setActiveNav(`#${link.link}`)}
+                                        className={activeNav === `#${link.link}` ? 'nav__link active-link' : 'nav__link'}
+                                    >
                                         <i className={`${link.icon} nav__icon`}></i>
                                         {link.menu}
                                     </a>
