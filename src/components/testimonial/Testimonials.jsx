@@ -13,7 +13,7 @@ import { testimonies } from '../../constants'
 const Testimonials = () => {
     return (
         <section className="testimonial section">
-            <h2 className="section__title">My client says</h2>
+            <h2 className="section__title">My colleague says</h2>
             <p className="section__subtitle">Testimonials</p>
 
             <Swiper
@@ -40,7 +40,7 @@ const Testimonials = () => {
                             className='testimonial__card' key={id}>
                             <img
                                 src={image}
-                                alt="image"
+                                alt="testimonial"
                                 className='testimonial__img' />
                             <h3 className="testimonial__name">{title}</h3>
                             <p className="testimonial__description">{description}</p>
