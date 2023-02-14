@@ -8,6 +8,7 @@ import Home from './components/home/Home'
 
 import Navbar from './components/navbar/Navbar'
 import Qualification from './components/qualification/Qualification'
+import SrcollUp from './components/scrollup/SrcollUp'
 import Services from './components/service/Services'
 import Skills from './components/skills/Skills'
 import Testimonials from './components/testimonial/Testimonials'
@@ -26,6 +27,7 @@ const App = () => {
                 <Contact />
             </main>
             <Footer />
+            <SrcollUp />
         </>
     )
 }
