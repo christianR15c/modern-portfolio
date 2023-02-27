@@ -7,6 +7,7 @@ import Footer from './components/footer/Footer'
 import Home from './components/home/Home'
 
 import Navbar from './components/navbar/Navbar'
+import Portfolio from './components/portfolio/Portfolio'
 import Qualification from './components/qualification/Qualification'
 import SrcollUp from './components/scrollup/SrcollUp'
 import Services from './components/service/Services'
@@ -23,6 +24,7 @@ const App = () => {
                 {/* <Skills /> */}
                 <Services />
                 <Qualification />
+                <Portfolio />
                 <Testimonials />
                 <Contact />
             </main>
